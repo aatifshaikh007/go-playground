@@ -1,0 +1,3 @@
+module mydemomethods
+
+go 1.24.2
