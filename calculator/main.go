@@ -21,6 +21,7 @@ func main() {
 	result, err := calculate(num1, num2, operator)
 	if err != nil {
 		fmt.Println("err", err)
+		return
 	}
 	fmt.Printf("Result : %.2f\n", result)
 
